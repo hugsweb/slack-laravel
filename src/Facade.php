@@ -2,6 +2,9 @@
 
 namespace Maknz\Slack\Laravel;
 
+/**
+ * @method static \Maknz\Slack\Message to($channel)
+ */
 class Facade extends \Illuminate\Support\Facades\Facade
 {
     /**
